@@ -48,4 +48,4 @@ jobs:
       - name: Push Chart
         run: |
           helm push microservice-${{ steps.chart_version.outputs.version }}.tgz \
-            oci://asia-south1-docker.pkg.dev/project-75c9b927-531d-4e58-a2b/helm-charts
+            oci://asia-south1-docker.pkg.dev/project-75c9b927-531d-4e58-a2b/helm
